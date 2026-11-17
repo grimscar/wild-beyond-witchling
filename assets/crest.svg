@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7dd98"/>
+      <stop offset="1" stop-color="#c38a35"/>
+    </linearGradient>
+    <linearGradient id="wing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f58fbf"/>
+      <stop offset="1" stop-color="#8e6cff"/>
+    </linearGradient>
+    <mask id="moon">
+      <rect width="120" height="120" fill="#fff"/>
+      <circle cx="68" cy="50" r="29" fill="#000"/>
+    </mask>
+  </defs>
+  <circle cx="60" cy="60" r="56" fill="#1b1434" stroke="url(#gold)" stroke-width="3"/>
+  <circle cx="60" cy="60" r="48.5" fill="none" stroke="#e3b860" stroke-opacity=".6" stroke-width="1" stroke-dasharray="1.5 4"/>
+  <circle cx="54" cy="62" r="33" fill="url(#gold)" mask="url(#moon)"/>
+  <g transform="translate(74 60) rotate(12)">
+    <path d="M0 0C-3-13-17-19-21-9-23-2-11 2 0 0Z" fill="url(#wing)"/>
+    <path d="M0 0C3-13 17-19 21-9 23-2 11 2 0 0Z" fill="url(#wing)"/>
+    <path d="M0 1C-3 3-14 6-12 13-10 18-3 10 0 1Z" fill="url(#wing)" opacity=".85"/>
+    <path d="M0 1C3 3 14 6 12 13 10 18 3 10 0 1Z" fill="url(#wing)" opacity=".85"/>
+    <path d="M0-6V12M0-6C-1-11-3-13-6-15M0-6C1-11 3-13 6-15" fill="none" stroke="#f7dd98" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <path d="M86 27l1.6 4.4L92 33l-4.4 1.6L86 39l-1.6-4.4L80 33l4.4-1.6z" fill="#f7dd98"/>
+  <path d="M33 87l1 2.8 2.8 1-2.8 1-1 2.8-1-2.8-2.8-1 2.8-1z" fill="#f7dd98"/>
+  <path d="M93 82l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8z" fill="#f7dd98" opacity=".8"/>
+</svg>
